@@ -1,0 +1,97 @@
+
+/* 头部样式 */
+header{
+    height:110px;
+    width:100%;
+    
+    overflow: hidden;
+}
+header div.h_top{
+    height:70px;
+    background:#000;
+}
+header  div.h_top div.logo{
+    width:200px;
+    height:70px;
+    padding-left:30px;
+    margin-top:0px;
+    display:inline-block;
+    line-height:70px;
+    position: absolute;
+    /* top:0px; */
+}
+header  div.h_top div.logo a{
+    color:white;
+    font-size:2rem;
+}
+header  div.h_top nav{
+    width:500px;
+    height:70px;
+    display:inline-block;
+    line-height:70px;
+    position: absolute;
+    left:250px;
+}
+header  div.h_top nav ul{
+    display:inline-flex;
+}
+header  div.h_top nav ul li{
+    margin:0 10px;
+}
+header  div.h_top nav ul li a{
+  color:#fff;
+}
+header div.h_right{
+    height:70px;
+    /* margin-left:754px; */
+    position: relative;
+    left:754px;
+}
+header div.h_right div.search{
+    border:1px solid #272525;
+    height:30px;
+    width:145px;
+    border-radius:20px; 
+    background-color:white;
+    margin-top:20px;
+    margin-right:15px;
+    padding-left:15px;
+    line-height:28px;
+}
+header  div.search input{
+    width:113px;
+    height:25px;
+    border:none;
+    font-size:6px;
+}
+div.h_right a.creator{
+    width:90px;
+    height:30px;
+    border:1px solid #403c3c;
+    background-color:white;
+    line-height:30px;
+    padding-left:15px;
+    border-radius:20px;
+
+}
+div.h_right a:last-child{
+    text-decoration:underline;
+    padding:0  10px;
+    margin-right:40px;
+    color:#ccc;
+}
+div.h_nav2{
+    height:40px;
+    width:100%;
+    background-color:#C20C0C;  
+}
+div.h_nav2 ul{
+    display:inline-block;
+    margin-left:162px;
+    line-height:40px;
+}
+div.h_nav2 ul li{
+    width:30px;
+    margin:0 21px;
+    float: left;
+}

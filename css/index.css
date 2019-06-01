@@ -1,0 +1,551 @@
+div#blank{
+    width:100%;
+    background-color:#242424;
+    border-bottom: 1px solid #000;
+    position: relative;
+    height: 70px;
+    box-sizing: border-box;
+}
+div#blank div.b_nav{
+    width:1100px;
+    margin:0 auto;
+}
+div#blank div.b_nav h1{
+    float:left;
+    width: 176px;
+    height: 69px;
+    background-image: url(../image/topbar.png);
+    background-position: 0px 0px;
+}
+div#blank div.b_nav h1 a{
+    float:left;
+    width: 157px;
+    height: 100%;
+    line-height:69px;
+    padding-right: 20px;
+    color:#fff;
+    font-size:25px;   
+}
+div.b_nav ul.m_nav{
+    float:left;
+}
+div.b_nav ul.m_nav li{
+    position: relative;
+    float:left;
+}
+div.b_nav ul.m_nav li span{
+    float: left;
+    height: 70px;
+    font-size: 14px;
+}
+div.b_nav ul.m_nav li span a{
+    padding: 0 19px;
+    text-align: center;
+    line-height: 70px
+}
+div.b_nav ul.m_nav li span:hover{
+    text-decoration:none;
+    background-color:#000; 
+}
+div.b_nav ul.m_nav li span a em{
+    font-style: normal;
+    text-align: left;
+    color:#fff;
+}
+div.b_nav div.login{
+    float: right;
+    height: 45px;
+    margin: 19px 0 0 20px;
+    padding: 0 22px 0 0;
+    position: relative;
+    background-position: right -47px;
+    background-image:url(../image/topbar.png);
+    cursor: pointer;
+}
+ div#loginway{
+    width:150px;
+    height:166px;
+    position: absolute;
+    top:55px;
+    left:1190px;
+    border:1px solid #000;   
+}
+div.hid{
+    display:none;
+}
+div#loginway p{
+    margin:0;
+    padding:6px 0px 6px 30px;
+    box-sizing: border-box;
+    background-color:rgba(69,69,69,0.8);
+    border-bottom:1px solid rgba(36,36,36,0.5);
+    /* border-radius:2px; #454545*/
+}
+div#loginway p a{
+    font-size:14px;
+    color:#c0c0c0;
+}
+div.b_nav div.login a{
+    display: block;
+    width: 28px;
+    margin-top: 7px;
+    color: #787878;
+}
+div.b_nav a.creator_center{
+    float: right;
+    width: 90px;
+    height: 32px;
+    margin: 19px 0 0 12px;
+    box-sizing: border-box;
+    padding-left: 16px;
+    border: 1px solid #4F4F4F;
+    background-position: 0 -140px;
+    line-height: 33px;
+    color: #ccc;
+    border-radius: 20px;
+}
+div.b_nav a.creator_center:hover{
+    color:rgb(228, 222, 222);
+    border:1px solid rgb(228, 222, 222);
+}
+div.b_nav div.srch{
+    float:right;
+    width:158px;
+    height:32px;
+    margin-top:19px;
+    background-image: url(../image/topbar.png);
+    background-position: -3px -98px;
+    border:1px solid #fff;
+    background-color: #fff;
+    border-radius:20px;
+}
+div.b_nav div.srch input{
+    margin:7px 26px;
+    width:80%;
+}
+/* 红导航 */
+div#red{
+    width:100%;
+    background-color:#c20c0c;
+}
+div#red>div{
+    width:1100px;
+    height:34px;
+    margin:0 auto;
+}
+div#red ul{
+    float:left;
+    padding-left:180px;
+
+}
+div#red ul.nav_2 li{
+    float:left;
+    height:34px;
+    text-align: center;
+    margin:-7px 25px;
+}
+div#red ul.nav_2 li a em{
+    color:#fff;
+    padding:2px 10px;
+}
+a:hover{
+    text-decoration:none;
+}
+div#red ul.nav_2 li a em:hover{
+    background-color:#9b0909;
+    border-radius:10px;
+}
+/* 轮播图样式重写 */
+.carousel-indicators li{
+    width:13px;
+    height:13px;
+    background:#fff;
+    border-radius:50%;
+    margin-left:10px;
+}
+.carousel-indicators .active{
+   background-color:#0aa1ed;
+}
+/*重写左右箭头的样式*/
+.carousel-control-prev,
+.carousel-control-next{
+   width:4%;
+   height:20%;
+   background-color:#aaa;
+   top:40%;
+   border-radius:0.25rem;
+}
+div#demo div.carousel-inner {
+    top:-18px;
+
+}
+div.download{
+    float:right;
+    position: absolute;
+    top:0px;
+    left:794px; 
+    border-left:3px solid #666;  
+    border-right:2px solid #666;
+}
+div.download a{
+    float:right;
+    width:245px;
+    height:336px;
+    
+    background-image:url(../image/download.png);
+}
+/* 主体 */
+div.g_bd1{
+    width:980px;
+    margin:0 auto;
+    min-height:700px;
+    height:1285px;
+    background:url(../image/wrap1.png) repeat-y;
+}
+div.l_com{
+    width:710px;
+    height:35px;
+    padding-top:4px;
+    margin-left:15px;
+    border-bottom:2px solid #C10D0C;
+    background-image:url(../image/index.png);
+    background-repeat:no-repeat;
+    background-position:-225px -154px;
+}
+div.l_com>a{
+    float:left;
+    font-size:20px;
+    margin-left:28px;
+}
+div.l_com div.typelist{
+    float:left;
+    margin:9px 20px;
+}
+div.typelist a{
+    float:left;
+    padding:0px 10px;
+    box-sizing: border-box;
+    color:#666;
+    border-right:1px solid #666;   
+}
+div.typelist a:hover{
+    text-decoration:underline;
+}
+div.sing_card{
+    width:670px;
+    height:467px;
+}
+/* div.sing_card ul li>div{
+    position: relative;
+} */
+div.sing_card ul li {
+    width: 140px;
+    height: 204px;
+    float:left;
+    margin:0px 0px 0px 27px;
+}
+ div.sing_card ul li a.card1{
+    /* width:140px;
+    height:140px; */
+    background:url(../image/coverall.png) no-repeat;
+    background-position:0px 0px;
+    position:relative;
+    top:0px;
+    left:0px; 
+    float:left;
+    z-index:10;
+ }
+div.sing_card ul li div{
+    width: 140px;
+    height:140px;
+    margin:10px;  
+}
+div.sing_card ul li img{
+    border:1px solid #c3c2c2;
+}
+div.n_singer{
+    margin-bottom:40px;
+}
+div.sing_card ul li div.bottom{
+    width:140px;
+    height: 27px;
+    position:relative;
+    bottom: 37px;
+    left: -9px;
+    background:url(../image/coverall.png) no-repeat;
+    background-position:0 -537px;
+    color: #ccc;
+}
+div.sing_card ul li div a{
+    float:left;
+    width:100%;
+    height:100%;   
+}
+div.sing_card ul li p{
+    width:100%;
+    margin-left:12px;
+}
+div.sing_card ul li p a{
+    color:#000;
+    font-size:14px;
+}    
+div.sing_card ul li p a:hover{
+    text-decoration:underline;
+}
+div.song_list{
+    float:left;
+}   
+/* 新碟上架 */
+div.g_bd1 div.song_list div.n_disk{
+    width:670px;
+    height:243px;
+}
+div.song_list div.n_disk div.disk{
+    width:687px;
+    height:186px;
+    line-height:186px;
+    border:1px solid #ddd;
+    margin:13px 19px;
+    position: relative;
+}
+div.song_list div.n_disk div.disk>a{
+    position: absolute;
+    top: 74px;
+    display:inline-block;
+    width: 17px;
+    height: 17px;  
+    background:url(../image/index.png) no-repeat;    
+}
+div.song_list div.n_disk div.disk a:first-child{
+    background-position: -260px -75px;
+}
+div.song_list div.n_disk div.disk>a:last-child{ 
+    right:2px; 
+    background-position: -300px -75px;
+}
+div.n_disk div.disk div.disk_roll{
+    width:645px;
+    height:180px;
+    /* border:1px solid #ddd; */
+    display:inline-block;
+    margin:5px 20px;
+}
+#disk_list li{
+    width:118px;
+    height:150px;
+    /* border:1px solid #000; */
+    float:left;
+    margin:15px 5px;
+}
+#disk_list li img:hover{
+    width:105px;
+    height:105px;
+    transition:0.3s linear;
+}
+div.card_content{
+    background:url
+}
+div#card_content>a:first-child{
+    display:block;
+    width:118px;
+    height:106px;
+    position: relative;
+}
+div#card_content a{
+    background:url(../image/coverall.png) no-repeat;
+    background-position: 0 -570px
+}
+div#card_content img{
+    width:100px;
+    height:100px;
+    position: absolute;
+    top:0px;
+    left:0px;
+}
+div#card_content h5{
+    font-size:14px;
+}
+div#card_content h5+h5 a{
+    color:#666;
+}
+/* 榜单推荐 */
+div#bd_bg{
+    width:690px;
+    height:472px;
+    margin:12px 0px 0px 20px;
+    background: url(../image/index_bill.png) no-repeat;
+}
+dl.bd_list{
+    width:230px;
+    height:472px;
+    border:1px solid #ccc;  
+    float:left;
+}
+dl.bd_list dt{
+    width:230px;
+    height:120px;
+    box-sizing:border-box;
+    /* border:1px solid red; */
+    border-bottom:1px solid #ccc;
+    padding:9px 5px;
+}
+dl.bd_list div.bd_dec{
+    width:116px;
+    height:51px;
+    float:right;
+}
+div.bd_dec h6{
+    margin-top:15px;
+    margin-left:-9px;
+}
+div.bd_dec h6 a{
+    font-size:14px;
+    font-weight:bold;
+    padding-left:5px;
+    color:#565656;
+}
+div.bd_dec h6 a:hover{
+    text-decoration: underline;
+}
+dt img{
+    height:80px;
+    width:80px;
+    margin-top:10px;
+    margin-left:14px;
+}
+dd.list ul li{
+    /* height:32.5px; */
+    height:30px;
+    line-height:30px;
+    margin:0px 0px 2px 0px;
+    /* border:1px solid red; */
+}
+dd.list ul li span{
+    /* height:32px; */
+    width:45px;
+    display:inline-block;
+    color:#6B95E3;
+    font-size:20px;
+    /* text-align: center; */
+    padding:2px 0px 0px 19px;
+    /* line-height:32px; */
+}
+dd.list ul li a{
+    font-size:12px;
+    display: inline-block;
+    /* line-height: 32px; */
+}
+dd.list ul>a{
+    float:right;
+    font-size:13px;
+    margin:6px 30px 0px 0px;
+}
+dd a:hover{
+    text-decoration: underline;
+}
+
+    
+
+
+
+/* 右边 */
+div.g_bd1 div.c_right{
+    float:right;
+    border:1px solid #ddd; 
+    width:250px;
+    min-height:500px;
+    margin-top:-18px;
+    background-origin:border-box;
+}
+div.g_bd1 div.c_right div.user_login{
+    padding:26px 21px;
+    width:100%;
+    height:126px;
+    background: url(../image/index.png) no-repeat;
+}
+div.c_right div.user_login a{
+    display:block;
+    width:100px;
+    height:31px;
+    margin:0 auto;
+    background-color:#C10D0C;
+    color:#fff;
+    text-align: center;
+    line-height:31px;
+    border-radius:5px;
+}
+/* 入驻歌手 */
+div.c_right div.n_singer{
+    width:100%;
+    height:455px;
+}
+div.c_right div.n_singer h4{
+    height:23px;
+    width:210px;
+    margin:8px auto;
+    font-size:13px;
+    border-bottom:2px solid #ddd;
+}
+div.c_right div.n_singer h4 span{
+    font-weight:bold;
+}
+div.c_right div.n_singer h4 a{
+    float:right;
+}
+div.c_right div.n_singer ul.singer_list li{
+    width:210px;
+    height:64px;
+    border:1px solid #ddd;
+    margin:11px auto;
+}
+ul.singer_list li a div{
+    float:left;
+    box-sizing:border-box;
+}
+ul.singer_list li a div img{
+    width:62px;
+}
+ul.singer_list li a div.dec{
+    width:144px;
+    height:64px;
+    padding:7px 14px;
+}
+ul.singer_list li a span{
+    font-size:14px;
+    font-weight:bold;
+    display:block;
+    margin-bottom:6px;
+}
+ul.singer_list div.apply{
+    border:1px solid #ddd;
+    width:210px;
+    height:31px;
+    text-align: center;
+    line-height:31px;
+    font-size:14px;
+    font-weight:bold;
+    margin:0 auto;
+}
+/* 主播推荐 */
+div.c_right div.n_singer ul.anchor li{
+    border:none;
+    height:45px;
+}
+ul.anchor li a div.dec{
+    height:45px;
+    padding:0px 8px;
+}
+ul.anchor li a div.dec span{
+    margin:0px 0px;
+    font-size:10px;
+}
+ul.anchor li a div.dec p{
+    font-size:8px;
+}
+
+ul.anchor li a div.dec span:hover{
+    text-decoration:underline;
+}
+ul.anchor li a div img{
+    width:40px;
+}

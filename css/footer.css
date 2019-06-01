@@ -1,0 +1,65 @@
+#foot a{
+    color:#000;
+    text-decoration: none;
+}
+#foot a:hover{
+    text-decoration: underline;
+}
+#foot span{
+    text-decoration:none;
+    display:inline-block;
+    font-size:10px;
+    line-height:12px;
+}
+#foot{
+    height:150px;
+    background-color:#F2F2F2;
+    border:1px solid #D3D3D3;
+    position: relative;
+}
+#foot>div{
+    float:left;
+    margin:35px 0px 0px 20px;
+
+}
+div.text .mar{
+    margin-bottom:5px!important;
+}
+#foot li span{
+    margin:0 auto;
+    /* text-align: center; */
+}
+#foot ul{
+    list-style: none;
+    height:120px;
+    overflow: hidden;
+    /* display:flex; */
+    /* float:left; */
+   position: absolute;
+   top:15px;
+   left:750px;
+}
+#foot ul li{
+    /* float:left; */
+    display:inline-block;
+    width:92px;
+    height:120px;
+    margin:0px 10px;
+    text-align:center;
+}
+#foot ul li a{
+    display:inline-block;
+    width:92px;
+    height:89px;
+    background: url(../image/foot_enter_new.png) no-repeat;
+}
+#foot li:nth-child(2)>a{
+   background-position: -116px -101px;
+}
+
+#foot li:nth-child(3)>a{
+    background-position: 2px -100px;
+}
+#foot li:nth-child(4)>a{
+    background-position: 2px -200px;
+}

@@ -1,0 +1,196 @@
+/* 基本轮廓样式定义 */
+div{
+    /* border:1px solid #666; */
+}
+#head{
+    width:100%;
+    height:482px;
+    position: relative;
+    background: url(../image/download/bg.jpg) no-repeat;
+    background-position: -309px 0px;
+    
+}
+body>div.last{
+    width:100%;
+    height:343px;
+    /* border-bottom:1px solid #666; */
+    
+}
+div#content>div{
+    width:100%;
+    height:438px;
+    background-color:#fff;
+    /* border-bottom:1px solid #666; */
+}
+/* 主题背景颜色 */
+div#content>div:nth-child(4),div#content>div:nth-child(2){
+    background-color:#f8f8f8;
+}
+/* 主体最后一张图片位置调整 */
+div#content>div:last-child img{
+    top:40px;
+}
+#head span:first-child{
+    float:left;
+    height:465px;
+    width:545px;
+    background:url(../image/download/banner-ios.png) no-repeat;
+    position: absolute;
+    top:5px;
+    left:57px;
+}
+div.download_btn{
+    width:360px;
+    height:222px;
+    position: absolute;
+    top:173px;
+    left:788px;
+}
+div.download_btn a{
+    display:inline-block;
+    height:40px;
+    width:170px;
+    margin:0px 0px 14px 8px;
+    line-height:40px;
+    background: url(../image/download/down_btn.png) no-repeat;
+    position: relative;
+}
+div.download_btn a i{
+    display:inline-block;
+    width:22px;
+    height:40px;
+    background: url(../image/download/down_btn.png) no-repeat;
+    margin-left:5px;
+}
+/* 背景样式定位 */
+div.download_btn a i.first{
+    background-position:-59px -99px;
+}
+div.download_btn a i.th2{
+    background-position:-27px -99px;
+}
+div.download_btn a i.th3{
+    background-position:-27px -99px;
+}
+div.download_btn a i.th4{
+    background-position:-27px -99px;
+}
+div.download_btn a i.th5{
+    background-position:0px -97px;
+}
+div.download_btn a i.th6{
+    background-position:0px -97px;
+}
+div.download_btn a i.th7{
+    background-position:0px -97px;
+}
+div.download_btn a i.th8{
+    background-position:-89px -97px;
+}
+div.download_btn span{
+    display:inline-block;
+    /* height:40px; */
+    /* line-height: 40px; */
+    color:#fff;
+    font-size:16px;
+    position: absolute;
+    top:0px;
+    left:35px;  
+}
+div.fixed{
+    width:64px;
+    height:80px;
+    background: url(../image/download/sprite.png) no-repeat;
+    background-position: 0px -83px;
+    position: fixed;
+    top:400px;
+    left:1154px;
+}
+div.fixed span{
+    position: absolute;
+    top:63px;
+    font-size:12px;
+}
+/* 内容图片定位 */
+img.p-left{
+    position: absolute;
+    top:100px;
+    left:120px;
+}
+img.p-right{
+    position: absolute;
+    top:94px;
+    left:782px;
+}
+/* 主体内容字体样式 */
+div.detail{
+    width:421px;
+    margin-top:100px;
+}
+div.rel div.fr{
+    margin-right:80px;
+}
+div.rel div.fl{
+    margin-left:80px;
+}
+div.rel h1{
+    display:inline-block;
+    font-size:40px;
+    font-weight:normal;
+    margin-top:20px;
+    margin-bottom:10px;
+}
+div.rel p{
+    font-size:16px;
+    color:#666;
+    line-height:24px;
+}
+div.rel p i{
+    font-style:normal;
+    color:red;
+}
+/* 最后一层 */
+div.last h2{
+    font-size:26px;
+    font-weight:normal;
+    margin-top:20px;
+    margin-bottom:8px;
+}
+div.last p{
+    color:#999;
+}
+
+div.last div.down{
+    width:124px;
+    height:142px;
+    margin:40px 0px 0px 125px;
+}
+div.last div.down:first-child{
+    margin-left:200px;
+}
+div.last div.down a{
+    width:123px;
+    height:31px;
+    background:url(../image/download/sprite.png) no-repeat;
+    margin:10px 0px 0px 0px;
+    padding:7px 0px 0px 40px;
+    box-sizing: border-box;
+    color:#fff;
+    text-decoration: none;
+}
+div.last div.over-hid{
+    height:200px;
+    overflow-x:hidden;
+}
+div.last div.down a.one{
+    background-position: 0px -464px;
+}
+div.last div.down a.two{
+    background-position: 0px -526px;
+}
+div.last div.down a.three{
+    background-position: 0px -526px;
+}
+div.last div.down a.four{
+    background-position: 0px -588px;
+}
