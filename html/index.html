@@ -27,15 +27,15 @@
                     <li><span><a href="#"><em>音乐人</em></a></span></li>
                     <li><span><a href="download.html"><em>下载客户端</em></a></span></li>
                 </ul>
-                <div class="login">
-                    <a href="javascript:show();">登录</a>
+                <div class="login" id="login">
+                    <a >登录</a>
                 </div>
-                <div id="loginway" class="hid">
-                        <p><a href="javascript:;">手机号登陆</a></p>
-                        <p><a href="javascript:;">微信登陆</a></p>
-                        <p><a href="javascript:;">QQ登陆</a></p>
-                        <p><a href="javascript:;">新浪微博</a></p>
-                        <p><a href="javascript:;">网易邮箱账号登陆</a></p>
+                <div id="loginway"  style="height:0px;">
+                        <p><a href="login.html" class="alogin">手机号登陆</a></p>
+                        <p><a href="login.html" class="alogin">微信登陆</a></p>
+                        <p><a href="login.html" class="alogin">QQ登陆</a></p>
+                        <p><a href="login.html" class="alogin">新浪微博</a></p>
+                        <p><a href="login.html" class="alogin">网易邮箱账号登陆</a></p>
                 </div>
                 <a href="#" class="creator_center">创作者中心</a>
                 <div class="srch">
@@ -188,7 +188,7 @@
                             </li>
                             <li>
                                 <div>
-                                    <a href="#" class="card1">
+                                    <a href="#" id="card1">
                                         <img src="../image/card8.jpg">
                                         <div class="bottom">
                                         </div>
@@ -623,15 +623,27 @@
             </ul>
     </div>
     <script>
-        function show(){
-            var div=document.getElementById("loginway");
-            console.log(div);
-            if(div.class=="hid"){
-                div.classList.remove("hid")
+        // 登陆方式点击出现隐藏
+         var D1=document.getElementById("loginway");
+         var D2=document.getElementById("login");
+         D2.onclick=function (){
+            if(D1.style.height=="168px"){
+                D1.style.height="0px";
             }else{
-                div.classList ("hid");
+                D1.style.height="168px";
             }
-        }
+         }
+        //  歌单底部的显示隐藏
+    //    var card=document.getElementById("card1");
+    //    card.onmouseenter=function (){
+    //        var btom=card.querySelector("div.bottom");
+    //        btom.style.display="block";
+    //    }
+    //    card.onmouseleave=function (){
+    //        var btom=card.querySelector("div.bottom");
+    //        btom.style.display="none";
+    //    }
+        // console.log(btom)
     </script>
 </body>
 </html>

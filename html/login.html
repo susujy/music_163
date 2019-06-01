@@ -43,7 +43,7 @@
             <div class="dec">
                 <div class="bg">
                 <h2 class="login_yun"></h2>
-                <div class="login_btn"><a href="javascript:;">立即登陆</a></div>
+                <div class="login_btn" id="login_btn"><a href="javascript:;">立即登陆</a></div>
                 </div>
             </div>
 
@@ -89,5 +89,36 @@
                 </li>
             </ul>
         </div>
+        <div id="login_box" style="height:300px">
+            <div class="top">
+                <div>请登陆</div>
+                <div id="close">×</div>
+            </div>
+            <div class="content">
+                <div class="left">
+                    <img src="../image/platform (1).png" alt="">
+                </div>
+                <div class="right">
+                    <ul>
+                        <li><a href="javaacript:;">手机登陆</a></li>
+                        <li><a href="javaacript:;">微信登陆</a></li>
+                        <li><a href="javaacript:;">新浪微博登陆</a></li>
+                        <li><a href="javaacript:;">网易账号登陆</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script>
+            var btn=document.getElementById("login_btn");
+            var box=document.getElementById("login_box");
+            var close=document.getElementById("close");
+            btn.onclick=function(){
+                box.style.height="300px";
+            }
+            close.onclick=function(){
+                box.style.height="0px";
+            }
+
+        </script>
 </body>
 </html>

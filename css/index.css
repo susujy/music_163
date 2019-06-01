@@ -62,24 +62,29 @@ div.b_nav div.login{
     background-image:url(../image/topbar.png);
     cursor: pointer;
 }
+/* 登陆方式初始隐藏 */
  div#loginway{
-    width:150px;
-    height:166px;
+    width:140px;
+    /* height:168px; */
     position: absolute;
-    top:55px;
-    left:1190px;
-    border:1px solid #000;   
+    top:50px;
+    left:1120px;
+    overflow:hidden;  
+    z-index:777;
 }
-div.hid{
-    display:none;
-}
+
 div#loginway p{
     margin:0;
-    padding:6px 0px 6px 30px;
+    padding:6px 0px 6px 10px;
     box-sizing: border-box;
     background-color:rgba(69,69,69,0.8);
     border-bottom:1px solid rgba(36,36,36,0.5);
     /* border-radius:2px; #454545*/
+  
+    
+}
+div#loginway  p a:hover{
+    color:#fff;
 }
 div#loginway p a{
     font-size:14px;
